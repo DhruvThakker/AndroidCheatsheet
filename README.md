@@ -1,2 +1,2 @@
 # AndroidCheatsheet
-Temeplates and Basic Modules for Android 
+Tempelates and Basic Modules for Android 
