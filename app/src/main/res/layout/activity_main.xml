@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.remedy441.androidcheatsheet.MainActivity">
+    <include
+        android:id="@+id/toolbar1"
+        layout="@layout/toolbar" />
+    <ru.katso.livebutton.LiveButton
+        xmlns:livebutton="http://schemas.android.com/apk/res-auto"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:text="Material"
+        android:id="@+id/butoMaterial"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        livebutton:corners="4dp"
+        livebutton:normalHeight="6dp"
+        livebutton:pressedHeight="2dp"
+        livebutton:backgroundColor="#F57F76"
+        livebutton:shadowColor="#b16262"/>
+    <ru.katso.livebutton.LiveButton
+        xmlns:livebutton="http://schemas.android.com/apk/res-auto"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:text="Volley"
+        android:id="@+id/butoVolley"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        livebutton:corners="4dp"
+        livebutton:normalHeight="6dp"
+        livebutton:pressedHeight="2dp"
+        livebutton:backgroundColor="#F57F76"
+        livebutton:shadowColor="#b16262"/>
+
+</LinearLayout>
